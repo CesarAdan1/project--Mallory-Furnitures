@@ -1,0 +1,120 @@
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+
+i18n.use(LanguageDetector).init({
+  resources: {
+    en: {
+      translations: {
+        "About":"About",
+        "Terms + Condition": "Terms + Condition",
+        "All": "All",
+        "Seating": "Seating",
+        "Tables" : "Tables",
+        "Desks" : "Desks",
+        "Storage" : "Storage",
+        "Bedroom" : "Bedroom",
+        "Miscellaneous" : "Miscellaneous",
+        "Company": "Company",
+        "Categories" : "Categories",
+        "Social" : "Social",
+        "Prees": "Prees",
+        "Add to Car": "Add to Car",
+        "Measurements": "Measurements",
+        "Condition": "Condition",
+        "Your furniture is old": "Your furniture is old",
+        "Our is older": "Our is older",
+        "Featured Products": "Featured Products",
+        "Check out some of our favourite lists" :"Check out some of our favourite lists",
+        "All Products": "All Products",
+        "Terms of Service": "Terms of Service",
+        "All buyers (herein after You or User) need to register by creating a username and a password for login.The information you provide needs to be accurate. You may not use false information or impersonate another person or company through your account.You are responsible for maintaining the confidentiality of the login details and Your account. Artlimes reserves the right to reject Your subscription for any or no reason, in particular, due to User's breach of these Terms of Service.":"All buyers (herein after You or User) need to register by creating a username and a password for login.The information you provide needs to be accurate. You may not use false information or impersonate another person or company through your account.You are responsible for maintaining the confidentiality of the login details and Your account. Artlimes reserves the right to reject Your subscription for any or no reason, in particular, due to User's breach of these Terms of Service.",
+        "Privacy Policy": "Privacy Policy",
+        "User’s personal data handling and protection is governed under the terms hereof and the provisions of General Data Protection Regulation (Regulation EC/679/2016). We don’t share your personal information with anyone except to comply with the law, develop our products, or protect our rights. Mallory Furniture collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Mallory Furniture's purpose in collecting non-personally identifying information is to better understand how Mallory Furniture's visitors use its website. From time to time, Mallory Furniture may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website. Mallory Furniture may collect statistics about the behavior of visitors to its websites. Certain visitors to Mallory Furniture's websites choose to interact with Mallory Furniture in ways that require Mallory Furniture to gather personally-identifying information. Mallory Furniture collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Mallory Furniture. Mallory Furniture does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.":"User’s personal data handling and protection is governed under the terms hereof and the provisions of General Data Protection Regulation (Regulation EC/679/2016). We don’t share your personal information with anyone except to comply with the law, develop our products, or protect our rights. Mallory Furniture collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Mallory Furniture's purpose in collecting non-personally identifying information is to better understand how Mallory Furniture's visitors use its website. From time to time, Mallory Furniture may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website. Mallory Furniture may collect statistics about the behavior of visitors to its websites. Certain visitors to Mallory Furniture's websites choose to interact with Mallory Furniture in ways that require Mallory Furniture to gather personally-identifying information. Mallory Furniture collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Mallory Furniture. Mallory Furniture does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.",
+        "Items Showing": "Items Showing",
+        "On Sale": "On Sale",
+        "All items": "All items",
+        "Mallory Furniture":"Mallory Furniture",
+      }
+    },
+    es: {
+      translations: {
+        "About":"Acerca",
+        "Terms + Conditions": "Términos + Condiciones",
+        "All": "Todos",
+        "Seating": "Asientos",
+        "Tables" : "Mesas",
+        "Desks" : "Escritorios",
+        "Storage" : "Almacenamiento",
+        "Bedroom" : "Cuarto",
+        "Miscellaneous" : "Miscelan",
+        "Company": "Compañía",
+        "Categories" : "Categorías",
+        "Social" : "Social",
+        "Prees": "Prees",
+        "Add to Car": "Añadir al Carrito",
+        "Measurements": "Medidas",
+        "Condition": "Condición",
+        "Your furniture is old": "Tus muebles son viejos",
+        "Our is older": "Los nuestros lo son más",
+        "Featured Products": "Productos Destacados",
+        "Check out some of our favourite lists" :"Checa algunos en nuestras listas de favoritos",
+        "All Products": "Todos los productos",
+        "Terms of Service":"Terminos de Servicio",
+        "All buyers (herein after 'You' or 'User') need to register by creating a username and a password for login.The information you provide needs to be accurate. You may not use false information or impersonate another person or company through your account.You are responsible for maintaining the confidentiality of the login details and Your account. Artlimes reserves the right to reject Your subscription for any or no reason, in particular, due to User's breach of these Terms of Service.":"A todos los compradores (hereinafter 'You' or 'User') necesitan registrase para crear un nombre de usuario y un password para iniciar sesión. La información que nos des necesita ser confiable. No puesdes usar información falsa o de otra persona o compañía en tu cuenta. Es usted tesponsable de mantener la confidencialidad de los detalles de inicio de sesión y Tú cuenta. Artlimes se reserva el derecho a denegar su suscripción por cualquier otra razón, en particular, debido a la brecha del usuario de estos términos de Servicio.",
+        "Privacy Policy": "Política de Privacidad",
+        "User’s personal data handling and protection is governed under the terms hereof and the provisions of General Data Protection Regulation (Regulation EC/679/2016). We don’t share your personal information with anyone except to comply with the law, develop our products, or protect our rights. Mallory Furniture collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Mallory Furniture's purpose in collecting non-personally identifying information is to better understand how Mallory Furniture's visitors use its website. From time to time, Mallory Furniture may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website. Mallory Furniture may collect statistics about the behavior of visitors to its websites. Certain visitors to Mallory Furniture's websites choose to interact with Mallory Furniture in ways that require Mallory Furniture to gather personally-identifying information. Mallory Furniture collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Mallory Furniture. Mallory Furniture does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.":"Los datos personales que los usuarios manejen y la protección esta regída bajo los términos  estipulados y la provisión de la Regulación General de Protección de Datos (Regulación EC/679/2016). Nosotros no compartimos tu información personal con nadie a excepción que cumpla con la ley, descubriendo nuestros productos, o proteger nuestros derechos. Mallory Furniture reúne información de no identificación personal del tipo que los navegadores web y los servidores típicamente disponen, por ejemplo el tipo de navegador, la preferencia en el idioma, sitios referidos, y la fecha y hora de cada petición del visitante. El propósito de Mallory Furniture en colectar información de identificación no personal es mejorar el entendimiento como los visitantes de Mallory Furniture usan su sitio web. De vez en vez, Mallory Furniture podría solicitar información de identificación no personal en el agregado, por ejemplo: Al publicar un reporte sobre el uso de su sitio web. Mallory Furniture podría recabar estadísticas acerca del comportamiento de los visitantes a sus sitios web. Ciertos visitantes para los sitios Web    escojen interactuar con Mallory Furniture en formas que requiere Mallory Furniture para obtener información de identificación personalizada. Mallory Furniture junta tal información solo en la medida que sea necesario o apropiado para cumlir con el propósito de la interacción de los visitantes con Mallory Furniture. Mallory Furniture no revela información de identidad personal que como se describe abajo. Y los visitantes siempre pueden rechazar a proveer información de identidad personal, con la advertencia de que esto podría prevenirlos de comprometerse con ciertas actividades relacionadas al sitio web.",
+        "Items Showing" : "Artículos Mostrados", 
+        "On Sale": "A la Venta",
+        "All items": "Todos los Artículos",
+        "Mallory Furniture":"Mallory Furniture",
+      }
+    },
+    ru: {
+      translations: {
+        "About":"Около",
+        "Terms + Conditions": "Условия + Условие",
+        "All": "все",
+        "Seating": "посадка",
+        "Tables" : "таблицы",
+        "Desks" : "парты",
+        "Storage" : "место хранения",
+        "Bedroom" : "Спальня",
+        "Miscellaneous" : "Разное",
+        "Company": "Компания",
+        "Categories" : "категории",
+        "Social" : "Социальное",
+        "Prees": "Prees",
+        "Add to Car": "Добавить в корзину",
+        "Measurements": "измерения",
+        "Condition": "Состояние",
+        "Your furniture is old": "Ваша мебель старая",
+        "Our is older": "наш старше",
+        "Featured Products": "Рекомендуемые товары",
+        "Check out some of our favourite lists" :"Ознакомьтесь с некоторыми из наших любимых списков",
+        "All Products": "Все продукты",
+        "Terms of Service":"Условия использования",
+        "All buyers (herein after 'You' or 'User') need to register by creating a username and a password for login.The information you provide needs to be accurate. You may not use false information or impersonate another person or company through your account.You are responsible for maintaining the confidentiality of the login details and Your account. Artlimes reserves the right to reject Your subscription for any or no reason, in particular, due to User's breach of these Terms of Service.":"A todos los compradores (hereinafter 'You' or 'User') necesitan registrase para crear un nombre de usuario y un password para iniciar sesión. La información que nos des necesita ser confiable. No puesdes usar información falsa o de otra persona o compañía en tu cuenta. Es usted tesponsable de mantener la confidencialidad de los detalles de inicio de sesión y Tú cuenta. Artlimes se reserva el derecho a denegar su suscripción por cualquier otra razón, en particular, debido a la brecha del usuario de estos términos de Servicio.",
+        "Privacy Policy": "политика конфиденциальности",
+        "User’s personal data handling and protection is governed under the terms hereof and the provisions of General Data Protection Regulation (Regulation EC/679/2016). We don’t share your personal information with anyone except to comply with the law, develop our products, or protect our rights. Mallory Furniture collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. Mallory Furniture's purpose in collecting non-personally identifying information is to better understand how Mallory Furniture's visitors use its website. From time to time, Mallory Furniture may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website. Mallory Furniture may collect statistics about the behavior of visitors to its websites. Certain visitors to Mallory Furniture's websites choose to interact with Mallory Furniture in ways that require Mallory Furniture to gather personally-identifying information. Mallory Furniture collects such information only insofar as is necessary or appropriate to fulfill the purpose of the visitor’s interaction with Mallory Furniture. Mallory Furniture does not disclose personally-identifying information other than as described below. And visitors can always refuse to supply personally-identifying information, with the caveat that it may prevent them from engaging in certain website-related activities.":"Los datos personales que los usuarios manejen y la protección esta regída bajo los términos  estipulados y la provisión de la Regulación General de Protección de Datos (Regulación EC/679/2016). Nosotros no compartimos tu información personal con nadie a excepción que cumpla con la ley, descubriendo nuestros productos, o proteger nuestros derechos. Mallory Furniture reúne información de no identificación personal del tipo que los navegadores web y los servidores típicamente disponen, por ejemplo el tipo de navegador, la preferencia en el idioma, sitios referidos, y la fecha y hora de cada petición del visitante. El propósito de Mallory Furniture en colectar información de identificación no personal es mejorar el entendimiento como los visitantes de Mallory Furniture usan su sitio web. De vez en vez, Mallory Furniture podría solicitar información de identificación no personal en el agregado, por ejemplo: Al publicar un reporte sobre el uso de su sitio web. Mallory Furniture podría recabar estadísticas acerca del comportamiento de los visitantes a sus sitios web. Ciertos visitantes para los sitios Web    escojen interactuar con Mallory Furniture en formas que requiere Mallory Furniture para obtener información de identificación personalizada. Mallory Furniture junta tal información solo en la medida que sea necesario o apropiado para cumlir con el propósito de la interacción de los visitantes con Mallory Furniture. Mallory Furniture no revela información de identidad personal que como se describe abajo. Y los visitantes siempre pueden rechazar a proveer información de identidad personal, con la advertencia de que esto podría prevenirlos de comprometerse con ciertas actividades relacionadas al sitio web.",
+        "Items Showing" : "Предметы, показывающие", 
+        "On Sale": "В продаже",
+        "All items": "Все детали",
+        "Mallory Furniture":"Маллори Фурнитур",
+      }
+    }
+ },
+  fallbackLng: "en",
+  debug: false,
+  ns: ["translations"],
+  defaultNS: "translations",
+  keySeparator: false,
+  interpolation: {
+    escapeValue: false,
+    formatSeparator: ","
+  },
+  react: {
+    wait: true
+  }
+});
+
+export default i18n;
